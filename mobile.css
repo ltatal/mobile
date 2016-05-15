@@ -13,6 +13,8 @@ img {
     z-index: 2;
 }
 
+.topnav img {}
+
 .header {
     background-image: url(image/logo.png);
     background-repeat: no-repeat;
@@ -66,7 +68,6 @@ img {
 .picslide {
     margin-top: 80px;
     position: static;
-    height: 470px;
     position: relative;
     top: 6px;
     z-index: 1;
@@ -126,8 +127,9 @@ img {
 }
 
 .lightpicslide {
-    height: 400px;
+    height: auto;
     width: 100%;
+    padding-bottom: 10px;
 }
 
 .lightpicslide .item active {
@@ -160,6 +162,7 @@ img {
 }
 
 .footer {
+    margin-top: 80px;
     height: 203px;
     background-image: url(image/footerback.jpg);
     background-repeat: no-repeat;
