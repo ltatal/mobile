@@ -141,6 +141,7 @@ img {
     height: auto;
     width: 100%;
     padding-bottom: 10px;
+    left: 50%;
 }
 
 .lightpicslide .item active {
