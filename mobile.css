@@ -14,15 +14,16 @@ img {
     z-index: 2;
 }
 
+.area {
+    position: relative;
+}
+
 .logo {
     position: absolute;
     left: 50%;
-    z-index: 3;
+    margin-top: -50px;
     margin-left: -61px;
-}
-
-.logo img {
-    margin-top: -90px;
+    z-index: 3;
 }
 
 .topnav ul {
