@@ -14,10 +14,12 @@ img {
     z-index: 2;
 }
 
-.header {
-    background-image: url(image/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+.logo img {
+    position: absolute;
+    left: 50%;
+    margin-left: -61px;
+    margin-top: -50px;
+    z-index: 3;
 }
 
 .topnav ul {
