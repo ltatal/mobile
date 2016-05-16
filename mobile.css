@@ -14,7 +14,7 @@ img {
     z-index: 2;
 }
 
-.logo {
+.logo img {
     position: absolute;
     left: 50%;
     margin-top: -50px;
