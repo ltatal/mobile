@@ -19,12 +19,10 @@ img {
 }
 
 .logo {
-    background-image: url(image/tatung.png);
-    height: 34px;
-    width: 122px;
     position: absolute;
     left: 50%;
-    margin-top: -50px;
+    top: 50%;
+    margin-top: -17px;
     margin-left: -61px;
     z-index: 3;
 }
