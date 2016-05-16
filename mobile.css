@@ -15,14 +15,16 @@ img {
 }
 
 .area {
+    height: 34px;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
-.logo {
+#logo {
     position: absolute;
     left: 50%;
-    top: 50%;
-    margin-top: -17px;
+    top: 30px;
     margin-left: -61px;
     z-index: 3;
 }
